@@ -1,6 +1,10 @@
 @use "../core/globals" as global;
-
-html {
-  background-color: global.$primary-color;
-  font-family: global.$font-primary;
+.main-title {
+  color: global.$light-color;
+  &__title {
+    font-family: global.$font-primary;
+  }
+  &__subtitle {
+    font-family: global.$font-secondary;
+  }
 }
