@@ -1,5 +1,5 @@
 {
-  "name": "Travellian",
+  "name": "travellian",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,7 +11,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "husky": "^8.0.0"
+    "husky": "^8.0.0",
     "sass": "^1.61.0"
   }
 }
