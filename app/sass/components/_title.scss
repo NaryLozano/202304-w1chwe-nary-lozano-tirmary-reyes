@@ -1,0 +1,6 @@
+@use "../core/globals" as global;
+
+html {
+  background-color: global.$primary-color;
+  font-family: global.$font-primary;
+}
