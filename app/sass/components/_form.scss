@@ -2,10 +2,31 @@
 
 .principal-formulary {
   background-color: global.$light-color;
-  &__tag {
+  font-size: 14px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: normal;
+  gap: 60px;
+  border-radius: 16px;
+
+  &__struct {
+    gap: 40px;
+  }
+
+  &__struct__tag {
     font-family: global.$font-primary;
   }
+
   &__input {
-    font-family: globla.$font-secondary;
+    font-family: global.$font-secondary;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
   }
+}
+
+html {
+  background-color: red;
 }
