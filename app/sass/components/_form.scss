@@ -1,0 +1,11 @@
+@use "../core/globals" as global;
+
+.principal-formulary {
+  background-color: global.$light-color;
+  &__tag {
+    font-family: global.$font-primary;
+  }
+  &__input {
+    font-family: globla.$font-secondary;
+  }
+}
