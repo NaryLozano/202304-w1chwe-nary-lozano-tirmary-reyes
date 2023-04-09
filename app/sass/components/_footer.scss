@@ -1,0 +1,36 @@
+@use "../core/globals" as global;
+
+.footer {
+  font-family: global.$font-secondary;
+  background-color: global.$tertiary-color-dark;
+  color: global.$light-color;
+  padding-top: 80px;
+  padding-left: 16px;
+  padding-right: 16px;
+  display: flex;
+  flex-direction: column;
+
+  &__title {
+    color: global.$light-color;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  &__menu {
+    width: 64px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+  }
+  &__logo {
+    flex-direction: row;
+  }
+  &__copy {
+    flex-direction: column;
+    padding-top: 0;
+  }
+  &__social-media {
+    margin-bottom: 80px;
+  }
+}
