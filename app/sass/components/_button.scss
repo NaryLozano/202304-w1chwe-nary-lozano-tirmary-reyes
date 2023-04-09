@@ -7,17 +7,33 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: center;
   border-radius: 12px;
   border: none;
   padding: 20px;
 
   &__submit fa-solid fa-arrow-right {
     margin-left: 100px;
+    color: global.$light-color;
   }
+
   &__submit {
     font-family: global.$font-primary;
   }
+
   &__next {
-    padding: 28px 20px;
+    height: 60px;
+    width: 66px;
+    margin-left: 40px;
+    background-color: global.$primary-color-dark;
+    font-size: 24px;
+  }
+
+  &__back {
+    height: 60px;
+    width: 66px;
+    background-color: global.$tertiary-color-dark;
+    transform: rotate(-180deg);
+    font-size: 24px;
   }
 }
