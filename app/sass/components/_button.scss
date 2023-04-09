@@ -11,6 +11,9 @@
   border: none;
   padding: 20px;
 
+  &__submit fa-solid fa-arrow-right {
+    margin-left: 100px;
+  }
   &__submit {
     font-family: global.$font-primary;
   }
