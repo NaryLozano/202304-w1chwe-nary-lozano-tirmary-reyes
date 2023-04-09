@@ -21,18 +21,26 @@
     <h1 class="main-title__title">Start your unforgettable journey with us.</h1>
     <span class="main-title__subtitle">The best travel for your journey begins now</span>
   </div>
-  <div class="principal-formulary">
-    <form class="principal-formulary principal-formulary__struct">
-      <label class="principal-formulary__tag" for="destination">Destination</label>
-      <input class="principal-formulary__input" type="text" name="destination" required placeholder="Dubai">
-      <label class="principal-formulary__tag" for="person">Person</label>
-      <input class="principal-formulary__input" type="text" name="person" required>
-      <label class="principal-formulary__tag" for="check-in">Check in</label>
-      <input class="principal-formulary__input" type="date" name="check-in" required>
-      <label class="principal-formulary__tag" for="check-out">Check out</label>
-      <input class="principal-formulary__input" type="date" name="check-out" required>
+  <section class="form">
+    <form class="form form__struct">
+      <div class="form form__struct form__container">
+        <label class="form__struct form__struct__label" for="destination">Destination</label>
+        <input class="form__struct  form__struct__input" type="text" id="destination" required placeholder="Dubai">
+      </div>
+      <div class="form form__struct form__container">
+        <label class="form__struct form__struct__label" for="person">Person</label>
+        <input class="form__struct form__struct__input" type="text" id="person" required>
+      </div>
+      <div class="form form__struct form__container">
+        <label class="form__struct form__struct  form__struct__label" for="check-in">Check in</label>
+        <input class="form__struct form__struct__input" type="date" id="check-in" required>
+      </div>
+      <div class="form form__struct form__container">
+        <label class="form__struct form__struct__label" for="check-out">Check out</label>
+        <input class="form__struct form__struct__input" type="date" id="check-out" required>
+      </div>
     </form>
-  </div>
+  </section>
 </body>
 
 </html>
