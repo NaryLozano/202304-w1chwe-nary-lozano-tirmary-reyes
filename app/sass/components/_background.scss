@@ -1,0 +1,12 @@
+@use "../core/globals" as global;
+
+.background-landing-page {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ),
+    url(/images/backgroundd_image.jpg);
+  height: 1210px;
+  background-position: center;
+}

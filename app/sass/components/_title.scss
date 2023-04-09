@@ -1,9 +1,15 @@
 @use "../core/globals" as global;
 .main-title {
   color: global.$light-color;
+  padding-bottom: 100px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 198px;
+
   &__title {
     font-family: global.$font-primary;
   }
+
   &__subtitle {
     font-family: global.$font-secondary;
   }
