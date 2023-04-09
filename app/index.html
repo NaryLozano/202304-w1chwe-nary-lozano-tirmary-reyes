@@ -23,28 +23,80 @@
       <h1 class="main-title__title">Start your unforgettable journey with us.</h1>
       <span class="main-title__subtitle">The best travel for your journey begins now</span>
     </section>
-  <section class="form">
-    <form class="form form__struct">
-      <div class="form form__struct form__container">
-        <label class="form__struct form__struct__label" for="destination">Destination</label>
-        <input class="form__struct  form__struct__input" type="text" id="destination" required placeholder="Dubai">
+    <section class="form">
+      <form class="form form__struct">
+        <div class="form form__struct form__container">
+          <label class="form__struct form__struct__label" for="destination">Destination</label>
+          <input class="form__struct  form__struct__input" type="text" id="destination" required placeholder="Dubai">
+        </div>
+        <div class="form form__struct form__container">
+          <label class="form__struct form__struct__label" for="person">Person</label>
+          <input class="form__struct form__struct__input" type="text" id="person" required>
+        </div>
+        <div class="form form__struct form__container">
+          <label class="form__struct form__struct__label" for="check-in">Check in</label>
+          <input class="form__struct form__struct__input" type="date" id="check-in" required>
+        </div>
+        <div class="form form__struct form__container">
+          <label class="form__struct form__struct__label" for="check-out">Check out</label>
+          <input class="form__struct form__struct__input" type="date" id="check-out" required>
+          <button class="button button__submit">Book now <i class="fa-solid fa-arrow-right"
+              style="color: #ffffff;"></i></button>
+        </div>
+      </form>
+    </section>
+    <footer class="footer">
+      <div class="footer footer__logo">
+        <img src="/logo/small-logo.svg" alt="small logo travellian">
+        <img src="/logo/Travellian.svg" alt="travellian logo">
+        <span class="footer__logo footer__copyright" style="color: #ffffff;">Copyright © Travellian 2020 All rights
+          reserverd</span>
       </div>
-      <div class="form form__struct form__container">
-        <label class="form__struct form__struct__label" for="person">Person</label>
-        <input class="form__struct form__struct__input" type="text" id="person" required>
+      <div class="footer footer__menu">
+        <nav class="footer__menu footer__nav-bar">
+          <h2 class="footer__menu footer__title">Menu</h2>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html"> Explore</a></li>
+            <li><a href="index.html">Travel</a></li>
+            <li><a href="index.html">Blog</a></li>
+            <li><a href="index.html">Pricing</a></li>
+          </ul>
+        </nav>
       </div>
-      <div class="form form__struct form__container">
-        <label class="form__struct form__struct  form__struct__label" for="check-in">Check in</label>
-        <input class="form__struct form__struct__input" type="date" id="check-in" required>
+      <div class="footer footer__information">
+        <nav class="footer__information footer__nav-bar">
+          <h2 class="footer__information footer__title">Information</h2>
+          <ul>
+            <li><a href="index.html">Destinations</a></li>
+            <li><a href="index.html">Supports</a></li>
+            <li><a href="index.html">Terms & Conditions</a></li>
+            <li><a href="index.html">Privacy</a></li>
+          </ul>
+        </nav>
       </div>
-      <div class="form form__struct form__container">
-        <label class="form__struct form__struct__label" for="check-out">Check out</label>
-        <input class="form__struct form__struct__input" type="date" id="check-out" required>
-        <button class="button button__submit">Book now <i class="fa-solid fa-arrow-right"
-            style="color: #ffffff;"></i></button>
+      <div class="footer footer__contact">
+        <nav class="footer__contact footer__nav-bar">
+          <h2 class="footer__contact footer__title">Contact Info</h2>
+          <ul>
+            <li><a href="tel:+123-456-798">+123-456-798</a></li>
+            <li><a href="mailto:info@travellian.com">info@travellian.com</a></li>
+            <li>
+              <address>1245, New York, USA</address>
+            </li>
+          </ul>
+        </nav>
       </div>
-    </form>
-  </section>
+      <div class="footer footer__social-networks">
+        <nav class="footer__social-networks footer__nav-bar">
+          <h2 class="footer__social-networks footer__title">Follow us on</h2>
+          <img src="/logo/logo-facebook.svg" alt="Facebook logotype">
+          <img src="/logo/logo-instagram.svg" alt="Instagram logotype">
+          <img src="/logo/logo-pinterest.svg" alt="Pinterest logotype">
+          <img src="/logo/logo-twitter.svg" alt="Twitter logotype">
+        </nav>
+      </div>
+    </footer>
 </body>
 
 </html>

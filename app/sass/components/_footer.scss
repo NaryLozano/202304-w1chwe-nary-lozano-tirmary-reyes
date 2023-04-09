@@ -1,0 +1,6 @@
+@use "../core/globals" as global;
+
+.footer {
+  background-color: global.$tertiary-color-dark;
+  color: global.$light-color;
+}
