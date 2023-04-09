@@ -1,29 +1,40 @@
 @use "../core/globals" as global;
 
-.principal-formulary {
+.form {
   background-color: global.$light-color;
   font-size: 14px;
-  padding: 20px;
+  padding: 10px 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: normal;
+  align-items: flex-start;
   gap: 60px;
   border-radius: 16px;
+  min-width: 268px;
 
   &__struct {
     gap: 40px;
+    padding: 0;
+    width: 100%;
   }
 
-  &__struct__tag {
+  &__container {
+    width: 100%;
+    padding: inherit;
+  }
+
+  &__struct__label {
     font-family: global.$font-primary;
+    padding: 0;
   }
 
-  &__input {
+  &__struct__input {
     font-family: global.$font-secondary;
     border: none;
     border-bottom: 1px solid black;
     outline: none;
+    border-radius: 0;
+    padding: 0;
   }
 }
 
